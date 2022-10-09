@@ -6,25 +6,22 @@
   }
   
   
-  .sidebar1 {
+  .sidebar-01 {
     background: #0D28A6;
     max-width: 70px;
     min-width: 70px;
     padding-top: 1;
   }
   
-  .sidebar2 {
+  .sidebar-02 {
     background: rgb(255, 255, 255);
-    /* min-width: 220px;
-    max-width: 220px; */
-    /* box-shadow: 10px 10px 0px 8px rgba(51, 0, 0, 0.05); */
   }
   
-  .sidebar-menu .text-sidebar2 {
+  .sidebar-menu .text-sidebar-02 {
     background-color: #CFD4ED;
   }
   
-  .sidebar-menu .text-sidebar1 p {
+  .sidebar-menu .text-sidebar-01 p {
     font-family: 'Poppins';
     font-weight: 700;
     size: 14px;
