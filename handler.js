@@ -22,7 +22,7 @@ function handleCreateCar(req, res){
         name : req.body.name,
         type : req.body.type,
         price : req.body.price,
-        image : req.body.image,
+        image : req.file.filename,
         size : req.body.size
     }).then(Cars => {
         res.redirect(201, "/cars/");     

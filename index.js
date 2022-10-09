@@ -30,15 +30,6 @@ app.get('/cars/:id/update', middleware.setCar, handler.handlePageUpdateCar);
 app.post('/cars/:id/update', middleware.setCar, handler.handleupdateCar);
 app.get('/cars/:id/delete', middleware.setCar, handler.handleDeleteCar);
 app.put("/cars/:id/picture",
-    upload.single("picture"),
-    (req, res) => {
-      const url = `/uploads/${req.file.filename}`;
-      res
-        .status(200)
-        .json({ message: "Foto berhasil di-upload, silahkan cek URL", url });
-    }
-  );
-  
 
 app.listen(PORT, () => {
     console.log("server berjalan!")
