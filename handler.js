@@ -55,8 +55,7 @@ function handleGetCar(req, res){
       type: car.type,
       price: car.price,
       image: car.image,
-      size: car.size,
-      updateAt: car.updateAt
+      size: car.size
     });
 }
 
